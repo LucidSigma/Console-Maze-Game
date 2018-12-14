@@ -9,8 +9,6 @@ private:
 	unsigned int y;
 	
 public:
-	Player() = default;
-
 	inline void SetX(unsigned int x) { this->x = x; }
 	inline void SetY(unsigned int y) { this->y = y; }
 	
